@@ -117,3 +117,23 @@ GOOGLE_TTS_API_KEY=your_key_here
 TELEGRAM_BOT_TOKEN=your_key_here
 TWILIO_ACCOUNT_SID=your_sid_here
 TWILIO_AUTH_TOKEN=your_token_here
+```
+
+
+# FILE STRUCTURE
+```TXT
+TraxAI/
+│
+├── interfaces/
+│   ├── Telegram
+│   │   ├── Traxtele.py
+│   ├── Webapp
+│   │   ├── app.py  # streamlit application
+│   ├── Python_script
+│   │   ├── Twilio_simulation.py
+│                
+├── requirements.txt
+├── .env
+├── README.md
+└── interfaces.md
+```
